@@ -1,0 +1,14 @@
+.custom-tabs {
+  border: none;
+  .nav-link {
+    color: var(--foreground);
+    border: none;
+    border-bottom: 2px solid transparent;
+
+    &.active {
+      color: var(--bs-primary);
+      border-bottom-color: var(--bs-primary);
+      font-weight: 700;
+    }
+  }
+}

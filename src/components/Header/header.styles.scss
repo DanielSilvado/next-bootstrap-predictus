@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--green);
+  color: var(--neutral-white);
+  font-weight: bold;
+
+  .logo {
+    width: 200px;
+    height: 40px;
+  }
+  .icon-menu {
+    fill: var(--bs-primary);
+    font-size: 26px;
+  }
+
+  .icon-notification {
+    fill: var(--neutral-white);
+    font-size: 20px;
+  }
+
+  .user-image {
+    width: 40px;
+    height: 40px;
+    background: var(--green-light-5);
+
+    .icon-user {
+      fill: var(--bs-primary);
+      font-size: 22px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+:root {
+  --black: #0e1612;
+  --green-dark: #21332c;
+  --green-dark-hover: #1e2e28;
+  --green-dark-1: #37865d;
+  --green: #2a4c3f;
+  --green-hover: #264439;
+  --green-light: #45a874;
+  --green-light-hover: #296546;
+  --green-light-5: #ecf6f1;
+  --off-white: #f4f3ee;
+
+  --neutral-white: #fff;
+  --neutral-10: #212121;
+
+  --background: var(--off-white);
+  --foreground: var(--neutral-10);
+
+  --bs-tertiary-color-rgb: var(--green-dark);
+  --bs-secondary-rgb: var(--black);
+  --bs-primary: var(--green-light);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-aeonik);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-background {
+  background: var(--background);
+}
+
+.text-tertiary {
+  color: var(--green-dark);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.flex-1 {
+  flex: 1;
+}
